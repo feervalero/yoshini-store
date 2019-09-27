@@ -1,12 +1,13 @@
-import React from 'react';
+import React,{ Component } from 'react';
+import { Header } from "../breadcrumb/Header";
 class Home extends React.Component {
     
     state = {name:"Fer"};
     
     render() { 
-        return (<> 
-            <h1>{this.state.name}</h1>
-        </>);
+        return (
+            <Header />
+        );
     }
 }
  

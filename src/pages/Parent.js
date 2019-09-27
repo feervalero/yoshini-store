@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Child from './Child';
+import Carousel from '../components/Carousel';
 
 class Parent extends Component {
     constructor(props) {
@@ -7,14 +8,15 @@ class Parent extends Component {
         this.state = { parentName : "Parent" }
     }
 
-    greetParent = () => {
-        alert(`Hello ${this.state.parentName}`);
+    greetParent = (message) => {
+        alert(`${message}`);
     }
 
     render() { 
         return ( 
             <>
             <h1>Parent</h1>
+            <Carousel />
             <Child greetHandler={this.greetParent} /> 
             </>
         );

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
-class Header extends React.Component{
+export class Header extends React.Component{
   constructor(){
     super();
     this.state = {name:""};
@@ -11,8 +11,8 @@ class Header extends React.Component{
     this.setState({name:event.target.value})
   }
   render(){
-    return (
-        <div className="row">
+    return (      
+        <div className="row">  
           <div className="col">Header 1</div>
           <div className="col-5">
             <ul className="nav">
@@ -31,7 +31,6 @@ class Header extends React.Component{
           </div>
 
         </div>
-
     );
   }
 }

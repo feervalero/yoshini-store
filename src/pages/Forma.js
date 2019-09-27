@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Carousel from '../components/Carousel';
 
 class Forma extends Component {
     constructor(props) {
@@ -12,6 +13,7 @@ class Forma extends Component {
     render() { 
         return (
             <>
+                <Carousel />
                 <div>{this.state.name}</div>
                 {/*<button onClick={this.eventHandler.bind(this)}>Click me</button>*/}
                 {/*<button onClick={() => this.eventHandler()}>Click me</button>*/}
