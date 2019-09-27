@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+//import './App.css';
 import { BrowserRouter as Router, Route} from 'react-router-dom';
 import Home from './pages/Home';
 import Login from './pages/Login';
@@ -8,6 +8,7 @@ import Parent from './pages/Parent';
 import ECommerceHome from './pages/ECommerceHome';
 import ECommerceLogin from './pages/ECommerceLogin';
 import KitchenAidHome from './pages/KitchenAidHome';
+import Ari from './pages/Ari';
 
 class App extends React.Component {
   state = {valor:"FER"};
@@ -18,10 +19,9 @@ class App extends React.Component {
 
   render(){
     return (
-      <div className="container">
         <Router>
           <>
-          
+          <Route exact path="/ari/" component={Ari} />
           <Route exact path="/lab/" component={Home} />
           <Route exact path="/kad/" component={KitchenAidHome} />
           <Route exact path="/lab/forma" component={Forma}/>
@@ -31,7 +31,6 @@ class App extends React.Component {
           <Route exact path="/ECommerce/login" component={ECommerceLogin}/>
           </>
         </Router>
-      </div>
     );
 }
 
