@@ -8,7 +8,7 @@ class Ari extends Component {
         return (
             <div className="container">
                 <section id="section-1">
-                    <h1>Fer ♥ Ari</h1>
+                    <h1>Fer <br />♥  <br/>Ari</h1>
                     <p>Una linda historia que se debe leer en compañia de un buen cafe</p>
                     <a href="#section-2">↓</a>
                 </section>
