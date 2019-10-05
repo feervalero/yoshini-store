@@ -8,6 +8,7 @@ body{
     color:white;
     line-height: 1.6;
     height:100vh;
+    font-family: Roboto;
 }
 .container{
     width:100%;
@@ -49,32 +50,95 @@ section h1{
 }
 section p{
     font-size:1.5rem;
+    font-weight: bold;
+    color:white;
 }
 #section-1{
-    background:url("https://picsum.photos/id/200/1080/920") no-repeat;
+    background:linear-gradient(0deg,rgba(0,0,0,0.3),rgba(255,0,150,0.3)),url("../back1.jpg") no-repeat;
     background-attachment: fixed;
-    /*background-position: center;*/
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% auto;
-    
+    background-size: auto 100% ;
+}
+#section-1 p,#section-10 p{
+    color:black;
+}
 
+#section-2{
+    background:linear-gradient(0deg,rgba(0,0,0,0.3),rgba(255,0,150,0.3)),url("../ari1.jpg") no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100% ;
+    
 }
 #section-3{
-    background:url("https://picsum.photos/id/120/1080/920") no-repeat;
+    background:linear-gradient(0deg,rgba(0,0,0,0.3),rgba(255,0,150,0.3)),url("../ari2.jpg") no-repeat;
     background-attachment: fixed;
-    /*background-position: center;*/
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: auto 100% ;
+    
 }
-#section-2{
-    background:url("https://picsum.photos/id/400/1080/920") no-repeat;
+#section-4{
+    background:linear-gradient(0deg,rgba(0,0,0,0.3),rgba(255,0,150,0.3)),url("../ari3.JPG") no-repeat;
     background-attachment: fixed;
-    background-position: 100vh auto ;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: auto 100% ;
+    
+}
+#section-5{
+    background:linear-gradient(0deg,rgba(0,0,0,0.3),rgba(255,0,150,0.3)),url("../ari4.jpeg") no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100% ;
+    
+}
+#section-6{
+    background:linear-gradient(0deg,rgba(0,0,0,0.3),rgba(255,0,150,0.3)),url("../ari5.jpg") no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100% ;
+    
+}
+#section-7{
+    background:linear-gradient(0deg,rgba(0,0,0,0.3),rgba(255,0,150,0.3)),url("../ari6.jpg") no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100% ;
+    
+}
+#section-8{
+    background:linear-gradient(0deg,rgba(0,0,0,0.3),rgba(255,0,150,0.3)),url("../ari7.jpg") no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100% ;
+    
+}
+#section-9{
+    background:linear-gradient(0deg,rgba(0,0,0,0.3),rgba(255,0,150,0.3)),url("../ari8.JPG") no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100% ;
+    
+}
+#section-10{
+    background:linear-gradient(0deg,rgba(0,0,0,0.3),rgba(255,0,150,0.3)),url("../ari9.JPG") no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100% ;
+    
 }
 #section-1 a{
     color:black;
+    font-size: 2em;
     text-decoration: none;
     cursor:pointer;
     position: absolute;
