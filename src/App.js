@@ -23,7 +23,7 @@ class App extends React.Component {
     return (
         <Router>
           <>
-          <Route exact path="/" component={Ari} />
+          <Route exact path="/" component={Home} />
           <Route exact path="/lab/" component={Home} />
           <Route exact path="/kad/" component={KitchenAidHome} />
           <Route exact path="/lab/forma" component={Forma}/>
