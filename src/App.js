@@ -1,42 +1,31 @@
 import React from 'react';
-//import './App.css';
-import { BrowserRouter as Router, Route} from 'react-router-dom';
-import Home from './pages/Home';
-import Login from './pages/Login';
-import Forma from './pages/Forma';
-import Parent from './pages/Parent';
-import ECommerceHome from './pages/ECommerceHome';
-import ECommerceLogin from './pages/ECommerceLogin';
-import KitchenAidHome from './pages/KitchenAidHome';
-import Ari from './pages/Ari';
+import './App.css';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import ProductPage from './pages/ProductPage';
 
-class App extends React.Component {
-  state = {valor:"FER"};
+import Header from './components/Header';
+import Footer from './components/Footer';
+
+function App() {
+
   
-  agregarValor = (valorNuevo) => {
-    this.setState({valor:valorNuevo});
-  }
 
-
-
-  render(){
-    return (
+  return (
+    <>
+    <div className="super_container">
+      
         <Router>
-          <>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/lab/" component={Home} />
-          <Route exact path="/kad/" component={KitchenAidHome} />
-          <Route exact path="/lab/forma" component={Forma}/>
-          <Route exact path="/lab/login" component={Login}/>
-          <Route exact path="/lab/parent" component={Parent}/>
-          <Route exact path="/ECommerce" component={ECommerceHome}/>
-          <Route exact path="/ECommerce/login" component={ECommerceLogin}/>
-          </>
+          <Header />
+            <Route exact path="/" component={HomePage} />
+            <Route path="/product" component={ProductPage} />
+          <Footer />
         </Router>
-    );
-}
-
+          
   
+    </div>
+    </>
+  );
 }
 
 export default App;
