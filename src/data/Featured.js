@@ -17,7 +17,7 @@ const Featured = [
         category:"Headphones",
         price:"300",
         lowprice:"225",
-        name:"Ipod shuffle 32 GB",
+        name:"Ipod shuffle 16 GB",
         available:"6",
         sold:"37",
         thumbnail:"images/featured_2.png",
