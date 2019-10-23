@@ -1,31 +1,4 @@
-const Featured = [
-    {
-        id:"01",
-        category:"Headphones",
-        price:"300",
-        lowprice:"225",
-        name:"Huawei H15 Multimedia for Everyone",
-        available:"6",
-        sold:"37",
-        thumbnail:"images/featured_1.png",
-        tag:"is_new",
-        discount:"0",
-        colors:[{hex:"#b19c83"},{hex:"#000000"},{hex:"#367788"}]
-    },
-    {
-        id:"02",
-        category:"Ipod",
-        price:"300",
-        lowprice:"225",
-        name:"Ipod shuffle 16 GB",
-        available:"6",
-        sold:"37",
-        thumbnail:"images/featured_2.png",
-        tag:"discount",
-        discount:"25",
-        colors:[{hex:"#b19c83"},{hex:"#000000"},{hex:"#367788"}]
-    }
-    ,
+const OnSale = [
     {
         id:"03",
         category:"Headphones",
@@ -50,6 +23,33 @@ const Featured = [
         sold:"37",
         thumbnail:"images/featured_4.png",
         tag:"is_new",
+        discount:"25",
+        colors:[{hex:"#b19c83"},{hex:"#000000"},{hex:"#367788"}]
+    }
+    ,
+    {
+        id:"01",
+        category:"Headphones",
+        price:"300",
+        lowprice:"225",
+        name:"Huawei H15 Multimedia for Everyone",
+        available:"6",
+        sold:"37",
+        thumbnail:"images/featured_1.png",
+        tag:"is_new",
+        discount:"0",
+        colors:[{hex:"#b19c83"},{hex:"#000000"},{hex:"#367788"}]
+    },
+    {
+        id:"02",
+        category:"Ipod",
+        price:"300",
+        lowprice:"225",
+        name:"Ipod shuffle 16 GB",
+        available:"6",
+        sold:"37",
+        thumbnail:"images/featured_2.png",
+        tag:"discount",
         discount:"25",
         colors:[{hex:"#b19c83"},{hex:"#000000"},{hex:"#367788"}]
     }
@@ -110,4 +110,4 @@ const Featured = [
     }
 ];
 
-export default Featured;
+export default OnSale;

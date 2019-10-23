@@ -6,6 +6,7 @@ import ProductPage from './pages/ProductPage';
 
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Copyright from './components/Copyright';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
             <Route exact path="/" component={HomePage} />
             <Route path="/product" component={ProductPage} />
           <Footer />
+          <Copyright />
         </Router>
           
   
