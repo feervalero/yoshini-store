@@ -1,5 +1,5 @@
 import React from 'react';
-require('../pages/dependencies/productStyles.css');
+//require('../pages/dependencies/productStyles.css');
 const SingleProduct = (props) => {
     return ( 
         <>
