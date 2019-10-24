@@ -3,6 +3,9 @@ import './App.css';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import ProductPage from './pages/ProductPage';
+import CartPage from './pages/CartPage';
+import ProductListPage from './pages/ProductListPage';
+
 
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -19,7 +22,9 @@ function App() {
         <Router>
           <Header />
             <Route exact path="/" component={HomePage} />
-            <Route path="/product" component={ProductPage} />
+            <Route exact path="/product" component={ProductPage} />
+            <Route exact path="/cart" component={CartPage} />
+            <Route exact path="/products" component={ProductListPage} />
           <Footer />
           <Copyright />
         </Router>

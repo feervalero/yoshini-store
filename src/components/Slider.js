@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {Link} from 'react-router-dom';
 const Slider = (prpops) => {
     return (
         <>
@@ -22,7 +22,7 @@ const Slider = (prpops) => {
                                             <div className="banner_2_title">MacBook Air 13</div>
                                             <div className="banner_2_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fermentum laoreet.</div>
                                             <div className="rating_r rating_r_4 banner_2_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                                            <div className="button banner_2_button"><a href="#">Explore</a></div>
+                                            <div className="button banner_2_button"><Link to="/">Explore</Link></div>
                                         </div>
                                         
                                     </div>
@@ -47,7 +47,7 @@ const Slider = (prpops) => {
                                             <div className="banner_2_title">MacBook Air 13</div>
                                             <div className="banner_2_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fermentum laoreet.</div>
                                             <div className="rating_r rating_r_4 banner_2_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                                            <div className="button banner_2_button"><a href="#">Explore</a></div>
+                                            <div className="button banner_2_button"><Link to="">Explore</Link></div>
                                         </div>
                                         
                                     </div>
@@ -72,7 +72,7 @@ const Slider = (prpops) => {
                                             <div className="banner_2_title">MacBook Air 13</div>
                                             <div className="banner_2_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fermentum laoreet.</div>
                                             <div className="rating_r rating_r_4 banner_2_rating"><i></i><i></i><i></i><i></i><i></i></div>
-                                            <div className="button banner_2_button"><a href="#">Explore</a></div>
+                                            <div className="button banner_2_button"><Link to="">Explore</Link></div>
                                         </div>
                                         
                                     </div>

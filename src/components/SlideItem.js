@@ -1,7 +1,6 @@
 import React from 'react'
 
 const SlideItem = (props) => {
-    console.log(props.colors);
     return ( 
         
         <>

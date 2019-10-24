@@ -21,31 +21,31 @@ const MainNav = (props) => {
                             </div>
 
                             <ul className="cat_menu">
-                                <li><a href="/">Computers & Laptops <i className="fas fa-chevron-right ml-auto"></i></a></li>
-                                <li><a href="/">Cameras & Photos<i className="fas fa-chevron-right"></i></a></li>
+                                <li><Link to="/products">Computers & Laptops <i className="fas fa-chevron-right ml-auto"></i></Link></li>
+                                <li><Link to="/">Cameras & Photos<i className="fas fa-chevron-right"></i></Link></li>
                                 <li className="hassubs">
-                                    <a href="/">Hardware<i className="fas fa-chevron-right"></i></a>
+                                    <Link to="/">Hardware<i className="fas fa-chevron-right"></i></Link>
                                     <ul>
                                         <li className="hassubs">
-                                            <a href="/">Menu Item<i className="fas fa-chevron-right"></i></a>
+                                            <Link to="/">Menu Item<i className="fas fa-chevron-right"></i></Link>
                                             <ul>
-                                                <li><a href="/">Menu Item<i className="fas fa-chevron-right"></i></a></li>
-                                                <li><a href="/">Menu Item<i className="fas fa-chevron-right"></i></a></li>
-                                                <li><a href="/">Menu Item<i className="fas fa-chevron-right"></i></a></li>
-                                                <li><a href="/">Menu Item<i className="fas fa-chevron-right"></i></a></li>
+                                                <li><Link to="/">Menu Item<i className="fas fa-chevron-right"></i></Link></li>
+                                                <li><Link to="/">Menu Item<i className="fas fa-chevron-right"></i></Link></li>
+                                                <li><Link to="/">Menu Item<i className="fas fa-chevron-right"></i></Link></li>
+                                                <li><Link to="/">Menu Item<i className="fas fa-chevron-right"></i></Link></li>
                                             </ul>
                                         </li>
-                                        <li><a href="/">Menu Item<i className="fas fa-chevron-right"></i></a></li>
-                                        <li><a href="/">Menu Item<i className="fas fa-chevron-right"></i></a></li>
-                                        <li><a href="/">Menu Item<i className="fas fa-chevron-right"></i></a></li>
+                                        <li><Link to="/">Menu Item<i className="fas fa-chevron-right"></i></Link></li>
+                                        <li><Link to="/">Menu Item<i className="fas fa-chevron-right"></i></Link></li>
+                                        <li><Link to="/">Menu Item<i className="fas fa-chevron-right"></i></Link></li>
                                     </ul>
                                 </li>
-                                <li><a href="/">Smartphones & Tablets<i className="fas fa-chevron-right"></i></a></li>
-                                <li><a href="/">TV & Audio<i className="fas fa-chevron-right"></i></a></li>
-                                <li><a href="/">Gadgets<i className="fas fa-chevron-right"></i></a></li>
-                                <li><a href="/">Car Electronics<i className="fas fa-chevron-right"></i></a></li>
-                                <li><a href="/">Video Games & Consoles<i className="fas fa-chevron-right"></i></a></li>
-                                <li><a href="/">Accessories<i className="fas fa-chevron-right"></i></a></li>
+                                <li><Link to="/">Smartphones & Tablets<i className="fas fa-chevron-right"></i></Link></li>
+                                <li><Link to="/">TV & Audio<i className="fas fa-chevron-right"></i></Link></li>
+                                <li><Link to="/">Gadgets<i className="fas fa-chevron-right"></i></Link></li>
+                                <li><Link to="/">Car Electronics<i className="fas fa-chevron-right"></i></Link></li>
+                                <li><Link to="/">Video Games & Consoles<i className="fas fa-chevron-right"></i></Link></li>
+                                <li><Link to="/">Accessories<i className="fas fa-chevron-right"></i></Link></li>
                             </ul>
                         </div>
 
@@ -53,53 +53,53 @@ const MainNav = (props) => {
 
                         <div className="main_nav_menu ml-auto">
                             <ul className="standard_dropdown main_nav_dropdown">
-                                <li><a href="/">Home<i className="fas fa-chevron-down"></i></a></li>
+                                <li><Link to="/">Home<i className="fas fa-chevron-down"></i></Link></li>
                                 <li className="hassubs">
-                                    <a href="/">Super Deals<i className="fas fa-chevron-down"></i></a>
+                                    <Link to="/">Super Deals<i className="fas fa-chevron-down"></i></Link>
                                     <ul>
                                         <li>
-                                            <a href="/">Menu Item<i className="fas fa-chevron-down"></i></a>
+                                            <Link to="/">Menu Item<i className="fas fa-chevron-down"></i></Link>
                                             <ul>
-                                                <li><a href="/">Menu Item<i className="fas fa-chevron-down"></i></a></li>
-                                                <li><a href="/">Menu Item<i className="fas fa-chevron-down"></i></a></li>
-                                                <li><a href="/">Menu Item<i className="fas fa-chevron-down"></i></a></li>
+                                                <li><Link to="/">Menu Item<i className="fas fa-chevron-down"></i></Link></li>
+                                                <li><Link to="/">Menu Item<i className="fas fa-chevron-down"></i></Link></li>
+                                                <li><Link to="/">Menu Item<i className="fas fa-chevron-down"></i></Link></li>
                                             </ul>
                                         </li>
-                                        <li><a href="/">Menu Item<i className="fas fa-chevron-down"></i></a></li>
-                                        <li><a href="/">Menu Item<i className="fas fa-chevron-down"></i></a></li>
-                                        <li><a href="/">Menu Item<i className="fas fa-chevron-down"></i></a></li>
+                                        <li><Link to="/">Menu Item<i className="fas fa-chevron-down"></i></Link></li>
+                                        <li><Link to="/">Menu Item<i className="fas fa-chevron-down"></i></Link></li>
+                                        <li><Link to="/">Menu Item<i className="fas fa-chevron-down"></i></Link></li>
                                     </ul>
                                 </li>
                                 <li className="hassubs">
-                                    <a href="/">Featured Brands<i className="fas fa-chevron-down"></i></a>
+                                    <Link to="/">Featured Brands<i className="fas fa-chevron-down"></i></Link>
                                     <ul>
                                         <li>
-                                            <a href="/">Menu Item<i className="fas fa-chevron-down"></i></a>
+                                            <Link to="/">Menu Item<i className="fas fa-chevron-down"></i></Link>
                                             <ul>
-                                                <li><a href="/">Menu Item<i className="fas fa-chevron-down"></i></a></li>
-                                                <li><a href="/">Menu Item<i className="fas fa-chevron-down"></i></a></li>
-                                                <li><a href="/">Menu Item<i className="fas fa-chevron-down"></i></a></li>
+                                                <li><Link to="/">Menu Item<i className="fas fa-chevron-down"></i></Link></li>
+                                                <li><Link to="/">Menu Item<i className="fas fa-chevron-down"></i></Link></li>
+                                                <li><Link to="/">Menu Item<i className="fas fa-chevron-down"></i></Link></li>
                                             </ul>
                                         </li>
-                                        <li><a href="/">Menu Item<i className="fas fa-chevron-down"></i></a></li>
-                                        <li><a href="/">Menu Item<i className="fas fa-chevron-down"></i></a></li>
-                                        <li><a href="/">Menu Item<i className="fas fa-chevron-down"></i></a></li>
+                                        <li><Link to="/">Menu Item<i className="fas fa-chevron-down"></i></Link></li>
+                                        <li><Link to="/">Menu Item<i className="fas fa-chevron-down"></i></Link></li>
+                                        <li><Link to="/">Menu Item<i className="fas fa-chevron-down"></i></Link></li>
                                     </ul>
                                 </li>
                                 <li className="hassubs">
-                                    <a href="/">Pages<i className="fas fa-chevron-down"></i></a>
+                                    <Link to="/">Pages<i className="fas fa-chevron-down"></i></Link>
                                     <ul>
-                                        <li><a href="shop.html">Shop<i className="fas fa-chevron-down"></i></a></li>
-                                        <li><a href="product.html">Product<i className="fas fa-chevron-down"></i></a></li>
+                                        <li><Link to="/">Shop<i className="fas fa-chevron-down"></i></Link></li>
+                                        <li><Link to="/">Product<i className="fas fa-chevron-down"></i></Link></li>
                                         <li><Link to="/product">Product</Link></li>
-                                        <li><a href="blog_single.html">Blog Post<i className="fas fa-chevron-down"></i></a></li>
-                                        <li><a href="regular.html">Regular Post<i className="fas fa-chevron-down"></i></a></li>
-                                        <li><a href="cart.html">Cart<i className="fas fa-chevron-down"></i></a></li>
-                                        <li><a href="contact.html">Contact<i className="fas fa-chevron-down"></i></a></li>
+                                        <li><Link to="/">Blog Post<i className="fas fa-chevron-down"></i></Link></li>
+                                        <li><Link to="/">Regular Post<i className="fas fa-chevron-down"></i></Link></li>
+                                        <li><Link to="/">Cart<i className="fas fa-chevron-down"></i></Link></li>
+                                        <li><Link to="/">Contact<i className="fas fa-chevron-down"></i></Link></li>
                                     </ul>
                                 </li>
-                                <li><a href="blog.html">Blog<i className="fas fa-chevron-down"></i></a></li>
-                                <li><a href="contact.html">Contact<i className="fas fa-chevron-down"></i></a></li>
+                                <li><Link to="/">Blog<i className="fas fa-chevron-down"></i></Link></li>
+                                <li><Link to="/">Contact<i className="fas fa-chevron-down"></i></Link></li>
                             </ul>
                         </div>
 

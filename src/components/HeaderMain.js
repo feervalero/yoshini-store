@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {Link} from 'react-router-dom';
 const HeaderMain = (props) => {
     return ( 
         <>
@@ -12,7 +12,7 @@ const HeaderMain = (props) => {
                     {/*<!-- Logo -->*/}
                     <div className="col-lg-2 col-sm-3 col-3 order-1">
                         <div className="logo_container">
-                            <div className="logo"><a href="/"><img src="yoshiniLogo.png" height="80px" /></a></div>
+                            <div className="logo"><Link to="/" ><img src="yoshiniLogo.png" height="80px" alt=""/></Link></div>
                         </div>
                     </div>
 
@@ -28,12 +28,12 @@ const HeaderMain = (props) => {
                                                 <span className="custom_dropdown_placeholder clc">All Categories</span>
                                                 <i className="fas fa-chevron-down"></i>
                                                 <ul className="custom_list clc">
-                                                    <li><a className="clc" href="/">All Categories</a></li>
-                                                    <li><a className="clc" href="/">Computers</a></li>
-                                                    <li><a className="clc" href="/">Laptops</a></li>
-                                                    <li><a className="clc" href="/">Cameras</a></li>
-                                                    <li><a className="clc" href="/">Hardware</a></li>
-                                                    <li><a className="clc" href="/">Smartphones</a></li>
+                                                    <li><Link className="clc" to="/">All Categories</Link></li>
+                                                    <li><Link className="clc" to="/">Computers</Link></li>
+                                                    <li><Link className="clc" to="/">Laptops</Link></li>
+                                                    <li><Link className="clc" to="/">Cameras</Link></li>
+                                                    <li><Link className="clc" to="/">Hardware</Link></li>
+                                                    <li><Link className="clc" to="/">Smartphones</Link></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -50,7 +50,7 @@ const HeaderMain = (props) => {
                             <div className="wishlist d-flex flex-row align-items-center justify-content-end">
                                 <div className="wishlist_icon"><img src="images/heart.png" alt="" /></div>
                                 <div className="wishlist_content">
-                                    <div className="wishlist_text"><a href="/">Wishlist</a></div>
+                                    <div className="wishlist_text"><Link to="/">Wishlist</Link></div>
                                     <div className="wishlist_count">115</div>
                                 </div>
                             </div>
@@ -63,7 +63,7 @@ const HeaderMain = (props) => {
                                         <div className="cart_count"><span>10</span></div>
                                     </div>
                                     <div className="cart_content">
-                                        <div className="cart_text"><a href="/">Cart</a></div>
+                                        <div className="cart_text"><Link to="/cart">Cart</Link></div>
                                         <div className="cart_price">$85</div>
                                     </div>
                                 </div>

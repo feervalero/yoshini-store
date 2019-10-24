@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {Link} from 'react-router-dom';
 const Banner = (props) => {
     return ( 
         <>
@@ -15,7 +15,7 @@ const Banner = (props) => {
                                 <h1 className="banner_text">Trust at Yoshini store</h1>
                                 <div className="banner_price"><span>$530</span>$460</div>
                                 <div className="banner_product_name">Apple Iphone 6s</div>
-                                <div className="button banner_button"><a href="/">Shop Now</a></div>
+                                <div className="button banner_button"><Link to="/product">Shop Now</Link></div>
                             </div>
                         </div>
                     </div>

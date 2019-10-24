@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {Link} from 'react-router-dom';
 const BestSellerItem = (props) => {
     return ( 
         <>
@@ -7,8 +7,8 @@ const BestSellerItem = (props) => {
             <div className="bestsellers_item_container d-flex flex-row align-items-center justify-content-start">
                 <div className="bestsellers_image"><img src={props.thumbnail} alt="" /></div>
                 <div className="bestsellers_content">
-                    <div className="bestsellers_category"><a href="#">Headphones</a></div>
-                    <div className="bestsellers_name"><a href="product.html">Xiaomi Redmi Note 4</a></div>
+                    <div className="bestsellers_category"><Link to="/">Headphones</Link></div>
+                    <div className="bestsellers_name"><Link to="/product">Xiaomi Redmi Note 4</Link></div>
                     <div className="rating_r rating_r_4 bestsellers_rating"><i></i><i></i><i></i><i></i><i></i></div>
                     <div className="bestsellers_price discount">${props.lowprice}<span>${props.price}</span></div>
                 </div>

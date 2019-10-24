@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {Link} from 'react-router-dom';
 const Trends = (props) => {
     return (
         <>
@@ -34,9 +34,9 @@ const Trends = (props) => {
                                     <div className="trends_item is_new">
                                         <div className="trends_image d-flex flex-column align-items-center justify-content-center"><img src="images/trends_1.jpg" alt="" /></div>
                                         <div className="trends_content">
-                                            <div className="trends_category"><a href="#">Smartphones</a></div>
+                                            <div className="trends_category"><Link to="/">Smartphones</Link></div>
                                             <div className="trends_info clearfix">
-                                                <div className="trends_name"><a href="product.html">Jump White</a></div>
+                                                <div className="trends_name"><Link to="/product">Jump White</Link></div>
                                                 <div className="trends_price">$379</div>
                                             </div>
                                         </div>
@@ -53,9 +53,9 @@ const Trends = (props) => {
                                     <div className="trends_item">
                                         <div className="trends_image d-flex flex-column align-items-center justify-content-center"><img src="images/trends_2.jpg" alt="" /></div>
                                         <div className="trends_content">
-                                            <div className="trends_category"><a href="#">Smartphones</a></div>
+                                            <div className="trends_category"><Link to="/">Smartphones</Link></div>
                                             <div className="trends_info clearfix">
-                                                <div className="trends_name"><a href="product.html">Samsung Charm...</a></div>
+                                                <div className="trends_name"><Link to="/product">Samsung Charm...</Link></div>
                                                 <div className="trends_price">$379</div>
                                             </div>
                                         </div>
@@ -72,9 +72,9 @@ const Trends = (props) => {
                                     <div className="trends_item is_new">
                                         <div className="trends_image d-flex flex-column align-items-center justify-content-center"><img src="images/trends_3.jpg" alt="" /></div>
                                         <div className="trends_content">
-                                            <div className="trends_category"><a href="#">Smartphones</a></div>
+                                            <div className="trends_category"><Link to="/">Smartphones</Link></div>
                                             <div className="trends_info clearfix">
-                                                <div className="trends_name"><a href="product.html">DJI Phantom 3...</a></div>
+                                                <div className="trends_name"><Link to="/product">DJI Phantom 3...</Link></div>
                                                 <div className="trends_price">$379</div>
                                             </div>
                                         </div>
@@ -91,9 +91,9 @@ const Trends = (props) => {
                                     <div className="trends_item is_new">
                                         <div className="trends_image d-flex flex-column align-items-center justify-content-center"><img src="images/trends_1.jpg" alt="" /></div>
                                         <div className="trends_content">
-                                            <div className="trends_category"><a href="#">Smartphones</a></div>
+                                            <div className="trends_category"><Link to="/">Smartphones</Link></div>
                                             <div className="trends_info clearfix">
-                                                <div className="trends_name"><a href="product.html">Jump White</a></div>
+                                                <div className="trends_name"><Link to="/product">Jump White</Link></div>
                                                 <div className="trends_price">$379</div>
                                             </div>
                                         </div>
@@ -110,9 +110,9 @@ const Trends = (props) => {
                                     <div className="trends_item">
                                         <div className="trends_image d-flex flex-column align-items-center justify-content-center"><img src="images/trends_2.jpg" alt="" /></div>
                                         <div className="trends_content">
-                                            <div className="trends_category"><a href="#">Smartphones</a></div>
+                                            <div className="trends_category"><Link to="/">Smartphones</Link></div>
                                             <div className="trends_info clearfix">
-                                                <div className="trends_name"><a href="product.html">Jump White</a></div>
+                                                <div className="trends_name"><Link to="/product">Jump White</Link></div>
                                                 <div className="trends_price">$379</div>
                                             </div>
                                         </div>
@@ -129,9 +129,9 @@ const Trends = (props) => {
                                     <div className="trends_item is_new">
                                         <div className="trends_image d-flex flex-column align-items-center justify-content-center"><img src="images/trends_3.jpg" alt="" /></div>
                                         <div className="trends_content">
-                                            <div className="trends_category"><a href="#">Smartphones</a></div>
+                                            <div className="trends_category"><Link to="/">Smartphones</Link></div>
                                             <div className="trends_info clearfix">
-                                                <div className="trends_name"><a href="product.html">Jump White</a></div>
+                                                <div className="trends_name"><Link to="/product">Jump White</Link></div>
                                                 <div className="trends_price">$379</div>
                                             </div>
                                         </div>

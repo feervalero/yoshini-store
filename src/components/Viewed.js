@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {Link} from 'react-router-dom';
 const Viewed = (props) => {
     return (<>
     <div className="viewed">
@@ -24,7 +24,7 @@ const Viewed = (props) => {
 									<div className="viewed_image"><img src="images/view_1.jpg" alt=""/></div>
 									<div className="viewed_content text-center">
 										<div className="viewed_price">$225<span>$300</span></div>
-										<div className="viewed_name"><a href="#">Beoplay H7</a></div>
+										<div className="viewed_name"><Link to="/">Beoplay H7</Link></div>
 									</div>
 									<ul className="item_marks">
 										<li className="item_mark item_discount">-25%</li>
@@ -38,7 +38,7 @@ const Viewed = (props) => {
 									<div className="viewed_image"><img src="images/view_2.jpg" alt="" /></div>
 									<div className="viewed_content text-center">
 										<div className="viewed_price">$379</div>
-										<div className="viewed_name"><a href="#">LUNA Smartphone</a></div>
+										<div className="viewed_name"><Link to="/">LUNA Smartphone</Link></div>
 									</div>
 									<ul className="item_marks">
 										<li className="item_mark item_discount">-25%</li>
@@ -52,7 +52,7 @@ const Viewed = (props) => {
 									<div className="viewed_image"><img src="images/view_3.jpg" alt="" /></div>
 									<div className="viewed_content text-center">
 										<div className="viewed_price">$225</div>
-										<div className="viewed_name"><a href="#">Samsung J730F...</a></div>
+										<div className="viewed_name"><Link to="/">Samsung J730F...</Link></div>
 									</div>
 									<ul className="item_marks">
 										<li className="item_mark item_discount">-25%</li>
@@ -66,7 +66,7 @@ const Viewed = (props) => {
 									<div className="viewed_image"><img src="images/view_4.jpg" alt="" /></div>
 									<div className="viewed_content text-center">
 										<div className="viewed_price">$379</div>
-										<div className="viewed_name"><a href="#">Huawei MediaPad...</a></div>
+										<div className="viewed_name"><Link to="/">Huawei MediaPad...</Link></div>
 									</div>
 									<ul className="item_marks">
 										<li className="item_mark item_discount">-25%</li>
@@ -80,7 +80,7 @@ const Viewed = (props) => {
 									<div className="viewed_image"><img src="images/view_5.jpg" alt="" /></div>
 									<div className="viewed_content text-center">
 										<div className="viewed_price">$225<span>$300</span></div>
-										<div className="viewed_name"><a href="#">Sony PS4 Slim</a></div>
+										<div className="viewed_name"><Link to="/">Sony PS4 Slim</Link></div>
 									</div>
 									<ul className="item_marks">
 										<li className="item_mark item_discount">-25%</li>
@@ -94,7 +94,7 @@ const Viewed = (props) => {
 									<div className="viewed_image"><img src="images/view_6.jpg" alt="" /></div>
 									<div className="viewed_content text-center">
 										<div className="viewed_price">$375</div>
-										<div className="viewed_name"><a href="#">Speedlink...</a></div>
+										<div className="viewed_name"><Link to="/">Speedlink...</Link></div>
 									</div>
 									<ul className="item_marks">
 										<li className="item_mark item_discount">-25%</li>

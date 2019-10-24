@@ -12,7 +12,7 @@ import Reviews from "../components/Reviews";
 import Viewed from "../components/Viewed";
 import Brands from "../components/Brands";
 import Newsletter from "../components/Newsletter";
-
+//require('./dependencies/mainStyles.css');
 
 class HomePage extends React.Component {
   constructor(props) {
@@ -35,8 +35,6 @@ class HomePage extends React.Component {
         <Viewed />
         <Brands />
         <Newsletter />
-        
-
       </>
     );
   }

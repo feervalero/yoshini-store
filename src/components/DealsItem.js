@@ -1,12 +1,12 @@
 import React from 'react';
-
+import {Link} from 'react-router-dom';
 const DealsItem = (props) => {
     return (<>
         <div className="owl-item deals_item">
             <div className="deals_image"><img src={props.thumbnail} alt="" /></div>
             <div className="deals_content">
                 <div className="deals_info_line d-flex flex-row justify-content-start">
-                    <div className="deals_item_category"><a href="#">{props.category}</a></div>
+                    <div className="deals_item_category"><Link to="/">{props.category}</Link></div>
                     <div className="deals_item_price_a ml-auto">${props.price}</div>
                 </div>
                 <div className="deals_info_line d-flex flex-row justify-content-start">

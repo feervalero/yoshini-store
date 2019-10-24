@@ -1,9 +1,9 @@
 import React from 'react';
-import Deals from '../data/Deals';
-import ArrivalItem from './ArrivalItem';
+import ArrivalItem from '../components/ArrivalItem';
 import Featured from '../data/Featured';
 import OnSale from '../data/OnSale';
 import BestRated from '../data/BestRated';
+import {Link} from 'react-router-dom';
 
 const NewArrivals = (props) => {
     return (
@@ -64,9 +64,9 @@ const NewArrivals = (props) => {
                                         <div className="d-flex flex-column align-items-center justify-content-center">
                                             <div className="arrivals_single_image"><img src="images/new_single.png" alt="" /></div>
                                             <div className="arrivals_single_content">
-                                                <div className="arrivals_single_category"><a href="#">Smartphones</a></div>
+                                                <div className="arrivals_single_category"><Link to="/">Smartphones</Link></div>
                                                 <div className="arrivals_single_name_container clearfix">
-                                                    <div className="arrivals_single_name"><a href="#">LUNA Smartphone</a></div>
+                                                    <div className="arrivals_single_name"><Link to="/">LUNA Smartphone</Link></div>
                                                     <div className="arrivals_single_price text-right">$379</div>
                                                 </div>
                                                 <div className="rating_r rating_r_4 arrivals_single_rating"><i></i><i></i><i></i><i></i><i></i></div>

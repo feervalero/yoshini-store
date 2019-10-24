@@ -18,69 +18,69 @@ const Menu = (props) => {
                                     </div>
                                     <ul className="page_menu_nav">
                                         <li className="page_menu_item has-children">
-                                            <a href="/">Language<i className="fa fa-angle-down"></i></a>
+                                            <Link to="/">Language<i className="fa fa-angle-down"></i></Link>
                                             <ul className="page_menu_selection">
-                                                <li><a href="/">English<i className="fa fa-angle-down"></i></a></li>
-                                                <li><a href="/">Italian<i className="fa fa-angle-down"></i></a></li>
-                                                <li><a href="/">Spanish<i className="fa fa-angle-down"></i></a></li>
-                                                <li><a href="/">Japanese<i className="fa fa-angle-down"></i></a></li>
+                                                <li><Link to="/">English<i className="fa fa-angle-down"></i></Link></li>
+                                                <li><Link to="/">Italian<i className="fa fa-angle-down"></i></Link></li>
+                                                <li><Link to="/">Spanish<i className="fa fa-angle-down"></i></Link></li>
+                                                <li><Link to="/">Japanese<i className="fa fa-angle-down"></i></Link></li>
                                             </ul>
                                         </li>
                                         <li className="page_menu_item has-children">
-                                            <a href="/">Currency<i className="fa fa-angle-down"></i></a>
+                                            <Link to="/">Currency<i className="fa fa-angle-down"></i></Link>
                                             <ul className="page_menu_selection">
-                                                <li><a href="/">US Dollar<i className="fa fa-angle-down"></i></a></li>
-                                                <li><a href="/">EUR Euro<i className="fa fa-angle-down"></i></a></li>
-                                                <li><a href="/">GBP British Pound<i className="fa fa-angle-down"></i></a></li>
-                                                <li><a href="/">JPY Japanese Yen<i className="fa fa-angle-down"></i></a></li>
+                                                <li><Link to="/">US Dollar<i className="fa fa-angle-down"></i></Link></li>
+                                                <li><Link to="/">EUR Euro<i className="fa fa-angle-down"></i></Link></li>
+                                                <li><Link to="/">GBP British Pound<i className="fa fa-angle-down"></i></Link></li>
+                                                <li><Link to="/">JPY Japanese Yen<i className="fa fa-angle-down"></i></Link></li>
                                             </ul>
                                         </li>
                                         <li className="page_menu_item">
                                             <Link to="/">Home</Link>
                                         </li>
                                         <li className="page_menu_item has-children">
-                                            <a href="/">Super Deals<i className="fa fa-angle-down"></i></a>
+                                            <Link to="/">Super Deals<i className="fa fa-angle-down"></i></Link>
                                             <ul className="page_menu_selection">
-                                                <li><a href="/">Super Deals<i className="fa fa-angle-down"></i></a></li>
+                                                <li><Link to="/">Super Deals<i className="fa fa-angle-down"></i></Link></li>
                                                 <li className="page_menu_item has-children">
-                                                    <a href="/">Menu Item<i className="fa fa-angle-down"></i></a>
+                                                    <Link to="/">Menu Item<i className="fa fa-angle-down"></i></Link>
                                                     <ul className="page_menu_selection">
-                                                        <li><a href="/">Menu Item<i className="fa fa-angle-down"></i></a></li>
-                                                        <li><a href="/">Menu Item<i className="fa fa-angle-down"></i></a></li>
-                                                        <li><a href="/">Menu Item<i className="fa fa-angle-down"></i></a></li>
-                                                        <li><a href="/">Menu Item<i className="fa fa-angle-down"></i></a></li>
+                                                        <li><Link to="/">Menu Item<i className="fa fa-angle-down"></i></Link></li>
+                                                        <li><Link to="/">Menu Item<i className="fa fa-angle-down"></i></Link></li>
+                                                        <li><Link to="/">Menu Item<i className="fa fa-angle-down"></i></Link></li>
+                                                        <li><Link to="/">Menu Item<i className="fa fa-angle-down"></i></Link></li>
                                                     </ul>
                                                 </li>
-                                                <li><a href="/">Menu Item<i className="fa fa-angle-down"></i></a></li>
-                                                <li><a href="/">Menu Item<i className="fa fa-angle-down"></i></a></li>
-                                                <li><a href="/">Menu Item<i className="fa fa-angle-down"></i></a></li>
+                                                <li><Link to="/">Menu Item<i className="fa fa-angle-down"></i></Link></li>
+                                                <li><Link to="/">Menu Item<i className="fa fa-angle-down"></i></Link></li>
+                                                <li><Link to="/">Menu Item<i className="fa fa-angle-down"></i></Link></li>
                                             </ul>
                                         </li>
                                         <li className="page_menu_item has-children">
-                                            <a href="/">Featured Brands<i className="fa fa-angle-down"></i></a>
+                                            <Link to="/">Featured Brands<i className="fa fa-angle-down"></i></Link>
                                             <ul className="page_menu_selection">
-                                                <li><a href="/">Featured Brands<i className="fa fa-angle-down"></i></a></li>
-                                                <li><a href="/">Menu Item<i className="fa fa-angle-down"></i></a></li>
-                                                <li><a href="/">Menu Item<i className="fa fa-angle-down"></i></a></li>
-                                                <li><a href="/">Menu Item<i className="fa fa-angle-down"></i></a></li>
+                                                <li><Link to="/">Featured Brands<i className="fa fa-angle-down"></i></Link></li>
+                                                <li><Link to="/">Menu Item<i className="fa fa-angle-down"></i></Link></li>
+                                                <li><Link to="/">Menu Item<i className="fa fa-angle-down"></i></Link></li>
+                                                <li><Link to="/">Menu Item<i className="fa fa-angle-down"></i></Link></li>
                                             </ul>
                                         </li>
                                         <li className="page_menu_item has-children">
-                                            <a href="/">Trending Styles<i className="fa fa-angle-down"></i></a>
+                                            <Link to="/">Trending Styles<i className="fa fa-angle-down"></i></Link>
                                             <ul className="page_menu_selection">
-                                                <li><a href="/">Trending Styles<i className="fa fa-angle-down"></i></a></li>
-                                                <li><a href="/">Menu Item<i className="fa fa-angle-down"></i></a></li>
-                                                <li><a href="/">Menu Item<i className="fa fa-angle-down"></i></a></li>
-                                                <li><a href="/">Menu Item<i className="fa fa-angle-down"></i></a></li>
+                                                <li><Link to="/">Trending Styles<i className="fa fa-angle-down"></i></Link></li>
+                                                <li><Link to="/">Menu Item<i className="fa fa-angle-down"></i></Link></li>
+                                                <li><Link to="/">Menu Item<i className="fa fa-angle-down"></i></Link></li>
+                                                <li><Link to="/">Menu Item<i className="fa fa-angle-down"></i></Link></li>
                                             </ul>
                                         </li>
-                                        <li className="page_menu_item"><a href="blog.html">blog<i className="fa fa-angle-down"></i></a></li>
-                                        <li className="page_menu_item"><a href="contact.html">contact<i className="fa fa-angle-down"></i></a></li>
+                                        <li className="page_menu_item"><Link to="blog.html">blog<i className="fa fa-angle-down"></i></Link></li>
+                                        <li className="page_menu_item"><Link to="contact.html">contact<i className="fa fa-angle-down"></i></Link></li>
                                     </ul>
                                     
                                     <div className="menu_contact">
                                         <div className="menu_contact_item"><div className="menu_contact_icon"><img src="images/phone_white.png" alt=""/></div>+38 068 005 3570</div>
-                                        <div className="menu_contact_item"><div className="menu_contact_icon"><img src="images/mail_white.png" alt=""/></div><a href="mailto:fastsales@gmail.com">fastsales@gmail.com</a></div>
+                                        <div className="menu_contact_item"><div className="menu_contact_icon"><img src="images/mail_white.png" alt=""/></div><Link to="mailto:fastsales@gmail.com">fastsales@gmail.com</Link></div>
                                     </div>
                                 </div>
                             </div>

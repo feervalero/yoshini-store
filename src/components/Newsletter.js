@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {Link} from 'react-router-dom';
 const Newsletter = (props) => {
     return (
     <>
@@ -18,7 +18,7 @@ const Newsletter = (props) => {
                                 <input type="email" className="newsletter_input" required="required" placeholder="Enter your email address"></input>
                                 <button className="newsletter_button">Subscribe</button>
                             </form>
-                            <div className="newsletter_unsubscribe_link"><a href="#">unsubscribe</a></div>
+                            <div className="newsletter_unsubscribe_link"><Link to="/">unsubscribe</Link></div>
                         </div>
                     </div>
                 </div>
