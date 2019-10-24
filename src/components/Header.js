@@ -1,30 +1,7 @@
 import React from 'react';
-import TopBar from './TopBar';
-import HeaderMain from './HeaderMain';
-import MainNav from './MainNav';
-import Menu from './Menu';
 
-class Header extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {  }
-    }
-    render() { 
-        return ( 
-            <header className="header">
-
-                <TopBar />
-
-                <HeaderMain />
-
-                <MainNav />
-                
-                <Menu />
-
-            </header>
-            
-         );
-    }
+const Header = (props) => {
+    return ( <h1>Header</h1> );
 }
  
 export default Header;
