@@ -5,6 +5,7 @@ import HomePage from "./pages/HomePage";
 import Header from "./components/Header";
 import Footer from './components/Footer';
 function App() {
+  console.log(process.env);
   return (
     <>
       <Router>
