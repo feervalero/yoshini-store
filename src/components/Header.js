@@ -1,5 +1,7 @@
 import React from "react";
-
+import LoginButton from "../components/LoginButton";
+import MyAccountButton from "./MyAccountButton";
+import { Link } from "react-router-dom";
 const Header = props => {
   return (
     <>
@@ -9,8 +11,8 @@ const Header = props => {
           <nav className="navbar navbar-expand-lg navbar-light main_box">
             <div className="container">
               {/*<!-- Brand and toggle get grouped for better mobile display -->*/}
-              <a className="navbar-brand logo_h" href="index.html">
-                <img src="yoshiniLogo.png" alt="" height="60px"/>
+              <a className="navbar-brand logo_h" href="/">
+                <img src="yoshiniLogo.png" alt="" height="60px" />
               </a>
               <button
                 className="navbar-toggler"
@@ -32,7 +34,7 @@ const Header = props => {
               >
                 <ul className="nav navbar-nav menu_nav ml-auto">
                   <li className="nav-item active">
-                    <a className="nav-link" href="index.html">
+                    <a className="nav-link" href="/">
                       Home
                     </a>
                   </li>
@@ -49,14 +51,14 @@ const Header = props => {
                     </a>
                     <ul className="dropdown-menu">
                       <li className="nav-item">
-                        <a className="nav-link" href="category.html">
+                        <a className="nav-link" href="/">
                           Shop Category
                         </a>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="single-product.html">
+                        <Link className="nav-link" to="/productDetail">
                           Product Details
-                        </a>
+                        </Link>
                       </li>
                       <li className="nav-item">
                         <a className="nav-link" href="checkout.html">
@@ -133,6 +135,11 @@ const Header = props => {
                       Contact
                     </a>
                   </li>
+                  {props.auth.isAuthenticated() ? (
+                    <MyAccountButton {...props} />
+                  ) : (
+                    <LoginButton {...props} />
+                  )}
                 </ul>
                 <ul className="nav navbar-nav navbar-right">
                   <li className="nav-item">
