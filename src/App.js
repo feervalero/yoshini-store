@@ -21,8 +21,9 @@ class App extends React.Component {
             <Route exact path="/" render={props => <HomePage auth={this.auth} {...props} />}/>
             <Route path="/MyAccount" render={props=> this.auth.isAuthenticated() ? <MyAccountPage auth={this.auth} {...props}/>: <Redirect to="/" />}/>
             <Route path="/ProductDetail" render={props => <ProductDetail {...props} />} />
+            <Route path="/callback" render={props => <Callback auth={this.auth} {...props} />}/> 
           <Footer />
-          <Route path="/callback" render={props => <Callback auth={this.auth} {...props} />}/> 
+          
           
       </>
     );

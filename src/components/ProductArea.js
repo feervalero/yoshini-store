@@ -1,5 +1,5 @@
 import React from "react";
-
+import scriptLoader from 'react-async-script-loader';
 const ProductArea = props => {
   return (
     <>
@@ -101,4 +101,4 @@ const ProductArea = props => {
   );
 };
 
-export default ProductArea;
+export default scriptLoader("js/main.js")(ProductArea);

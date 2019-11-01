@@ -1,10 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import NavLink from "./NavLink";
+
 const LoginButton = props => {
   console.log(props.auth);
   return (
     <li className="nav-item submenu dropdown">
-      <Link
+      <a
         to="/MyAccount"
         className="nav-link dropdown-toggle"
         data-toggle="dropdown"
@@ -13,15 +15,15 @@ const LoginButton = props => {
         aria-expanded="false"
       >
         MyAccount
-      </Link>
+      </a>
       <ul className="dropdown-menu">
         <li className="nav-item">
-          <Link className="nav-link" to="/MyAccount">
+          <a className="nav-link" href="/MyAccount">
             My Account
-          </Link>
+          </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" onClick={props.auth.logout}>
+          <a className="nav-link" href="" onClick={props.auth.logout}>
             Logout
           </a>
         </li>

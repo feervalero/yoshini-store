@@ -2,6 +2,7 @@ import React from "react";
 import LoginButton from "../components/LoginButton";
 import MyAccountButton from "./MyAccountButton";
 import { Link } from "react-router-dom";
+import NavLink from "./NavLink";
 const Header = props => {
   return (
     <>
@@ -114,26 +115,18 @@ const Header = props => {
                     </a>
                     <ul className="dropdown-menu">
                       <li className="nav-item">
-                        <a className="nav-link" href="login.html">
-                          Login
-                        </a>
+                        <NavLink to="/login" text="Login" />
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="tracking.html">
-                          Tracking
-                        </a>
+                        <NavLink to="/tracking" text="Tracking" />
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="elements.html">
-                          Elements
-                        </a>
+                        <NavLink to="/elements" text="Elements" />
                       </li>
                     </ul>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="contact.html">
-                      Contact
-                    </a>
+                    <NavLink to="/contact" text="Contact" />
                   </li>
                   {props.auth.isAuthenticated() ? (
                     <MyAccountButton {...props} />
