@@ -9,7 +9,6 @@ ReactDOM.render(
   <>
     <Router>
       <Switch>
-        <Route component={Admin} path="/admin"  />
         <Route path="/" component={App} />
       </Switch>
     </Router>

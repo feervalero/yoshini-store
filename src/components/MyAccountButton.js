@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import NavLink from "./NavLink";
 
 const LoginButton = props => {
-  console.log(props.auth);
   return (
     <li className="nav-item submenu dropdown">
       <a

@@ -52,9 +52,7 @@ const Header = props => {
                     </a>
                     <ul className="dropdown-menu">
                       <li className="nav-item">
-                        <a className="nav-link" href="/">
-                          Shop Category
-                        </a>
+                        <NavLink to="/categorypage" text="Category Page" />
                       </li>
                       <li className="nav-item">
                         <Link className="nav-link" to="/productDetail">

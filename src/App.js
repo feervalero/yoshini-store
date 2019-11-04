@@ -8,6 +8,8 @@ import Auth from './Auth';
 import Callback from "./pages/Callback";
 import MyAccountPage from './pages/MyAccountPage';
 import ProductDetail from "./pages/ProductDetail";
+import CategoryPage from "./pages/CategoryPage";
+import ProductView from "./pages/ProductView";
 class App extends React.Component {
   constructor(props){
     super(props);
@@ -22,6 +24,7 @@ class App extends React.Component {
             <Route path="/MyAccount" render={props=> this.auth.isAuthenticated() ? <MyAccountPage auth={this.auth} {...props}/>: <Redirect to="/" />}/>
             <Route path="/ProductDetail" render={props => <ProductDetail {...props} />} />
             <Route path="/callback" render={props => <Callback auth={this.auth} {...props} />}/> 
+            <Route path="/CategoryPage" render={props => <CategoryPage auth={this.auth} {...props} />}/> 
           <Footer />
           
           

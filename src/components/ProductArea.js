@@ -12,21 +12,21 @@ const ProductArea = props => {
                 <div className="single-prd-item">
                   <img
                     className="img-fluid"
-                    src="img/category/s-p1.jpg"
+                    src="http://lorempixel.com/400/400/food"
                     alt=""
                   />
                 </div>
                 <div className="single-prd-item">
                   <img
                     className="img-fluid"
-                    src="img/category/s-p1.jpg"
+                    src="http://lorempixel.com/400/400/food"
                     alt=""
                   />
                 </div>
                 <div className="single-prd-item">
                   <img
                     className="img-fluid"
-                    src="img/category/s-p1.jpg"
+                    src="http://lorempixel.com/400/400/food"
                     alt=""
                   />
                 </div>
@@ -34,8 +34,8 @@ const ProductArea = props => {
             </div>
             <div className="col-lg-5 offset-lg-1">
               <div className="s_product_text">
-                <h3>Faded SkyBlu Denim Jeans</h3>
-                <h2>$149.99</h2>
+                <h3>{props.title}</h3>
+                <h2>{props.price}</h2>
                 <ul className="list">
                   <li>
                     <a className="active" href="#">
@@ -49,13 +49,10 @@ const ProductArea = props => {
                   </li>
                 </ul>
                 <p>
-                  Mill Oil is an innovative oil filled radiator with the most
-                  modern technology. If you are looking for something that can
-                  make your interior look awesome, and at the same time give you
-                  the pleasant warm feeling during the winter.
+                  {props.description}
                 </p>
                 <div className="product_count">
-                  <label for="qty">Quantity:</label>
+                  <label htmlFor="qty">Quantity:</label>
                   <input
                     type="text"
                     name="qty"
@@ -101,4 +98,4 @@ const ProductArea = props => {
   );
 };
 
-export default scriptLoader("js/main.js")(ProductArea);
+export default scriptLoader("/js/main.js")(ProductArea);

@@ -23,7 +23,7 @@ const Footer = props => {
                 <div className="" id="mc_embed_signup">
                   <form
                     target="_blank"
-                    novalidate="true"
+                    noValidate={true}
                     action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
                     method="get"
                     className="form-inline"
@@ -33,8 +33,6 @@ const Footer = props => {
                         className="form-control"
                         name="EMAIL"
                         placeholder="Enter Email"
-                        onfocus="this.placeholder = ''"
-                        onblur="this.placeholder = 'Enter Email '"
                         required=""
                         type="email"
                       ></input>
@@ -48,8 +46,7 @@ const Footer = props => {
                       <div style={{position:"absolute",left:"-5000px"}}>
                         <input
                           name="b_36c4fd991d266f23781ded980_aefe40901a"
-                          tabindex="-1"
-                          value=""
+                          tabIndex="-1"
                           type="text"
                         ></input>
                       </div>
