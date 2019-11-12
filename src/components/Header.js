@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import NavLink from "./NavLink";
 const Header = props => {
   return (
+    
     <>
       {/*<!-- Start Header Area -->*/}
       <header className="header_area sticky-header">
@@ -13,7 +14,7 @@ const Header = props => {
             <div className="container">
               {/*<!-- Brand and toggle get grouped for better mobile display -->*/}
               <a className="navbar-brand logo_h" href="/">
-                <img src="yoshiniLogo.png" alt="" height="60px" />
+                <img src="/yoshiniLogo.png" alt="" height="60px" />
               </a>
               <button
                 className="navbar-toggler"
@@ -52,7 +53,7 @@ const Header = props => {
                     </a>
                     <ul className="dropdown-menu">
                       <li className="nav-item">
-                        <NavLink to="/categorypage" text="Category Page" />
+                        <NavLink to={"/categorypage"} text="Category Page" />
                       </li>
                       <li className="nav-item">
                         <Link className="nav-link" to="/productDetail">
@@ -150,12 +151,14 @@ const Header = props => {
         </div>
         <div className="search_input" id="search_input_box">
           <div className="container">
-            <form className="d-flex justify-content-between">
+            <form className="d-flex justify-content-between" onSubmit={props.sub}>
               <input
                 type="text"
                 className="form-control"
                 id="search_input"
                 placeholder="Search Here"
+                onChange={props.searchSomething}
+                
               ></input>
               <button type="submit" className="btn"></button>
               <span
@@ -173,3 +176,4 @@ const Header = props => {
 };
 
 export default Header;
+
