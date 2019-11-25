@@ -1,3 +1,9 @@
+## Collaboration
+
+Feel free to collaborate, as this is a project that is just stating we can create something awesome together.
+Im thinking in create a platform for eCommerce that anyone can use using React for technology.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
