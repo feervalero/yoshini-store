@@ -25,6 +25,7 @@ const ProductArea = props => {
                     alt=""
                   />
                 </div>
+                
                 <div className="single-prd-item">
                   <img
                     style={{ borderRadius: "10px" }}
