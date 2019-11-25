@@ -1,5 +1,5 @@
 import React from "react";
-import scriptLoader from 'react-async-script-loader';
+import scriptLoader from "react-async-script-loader";
 const ProductArea = props => {
   return (
     <>
@@ -11,6 +11,7 @@ const ProductArea = props => {
               <div className="s_Product_carousel">
                 <div className="single-prd-item">
                   <img
+                    style={{ borderRadius: "10px" }}
                     className="img-fluid"
                     src="http://lorempixel.com/400/400/food"
                     alt=""
@@ -18,6 +19,7 @@ const ProductArea = props => {
                 </div>
                 <div className="single-prd-item">
                   <img
+                    style={{ borderRadius: "10px" }}
                     className="img-fluid"
                     src="http://lorempixel.com/400/400/food"
                     alt=""
@@ -25,6 +27,7 @@ const ProductArea = props => {
                 </div>
                 <div className="single-prd-item">
                   <img
+                    style={{ borderRadius: "10px" }}
                     className="img-fluid"
                     src="http://lorempixel.com/400/400/food"
                     alt=""
@@ -48,9 +51,7 @@ const ProductArea = props => {
                     </a>
                   </li>
                 </ul>
-                <p>
-                  {props.description}
-                </p>
+                <p>{props.description}</p>
                 <div className="product_count">
                   <label htmlFor="qty">Quantity:</label>
                   <input
